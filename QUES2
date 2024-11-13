@@ -1,0 +1,9 @@
+
+def func(str):
+    final = [s[::-1] for s in str if len(s[::-1])>=5]
+    return final
+    
+    
+str = ["helloworld", "surbhi", "jiit"]
+print("reversed string: ")
+print(func(str))
